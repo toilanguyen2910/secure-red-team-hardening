@@ -1,0 +1,14 @@
+interface:
+  display_name: Secure Red Team Hardening
+  short_description: Audit projects and add verified security protections
+  default_prompt: Audit this authorized project for realistic security weaknesses,
+    implement safe hardening fixes, and verify that functionality still works.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
